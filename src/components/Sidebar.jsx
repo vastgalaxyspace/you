@@ -17,10 +17,10 @@ const Sidebar = () => (
             style={{background:category.name === selectedcategory && '#fc1503',
             color:'white'
             }}>
-                <span>
+                <span style={{color:category.name===selectedcategory ? 'white':'red',marginRight:'15px'}}>
                     {category.icon}
                 </span>
-                <span>
+                <span style={{opacity:category.name===selectedcategory?'1':'0.8'}}>
                     {category.name}
                 </span>
             </button>
