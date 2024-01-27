@@ -28,6 +28,13 @@ const SearchBar = () => {
          <Search />
         </IconButton>
 
+        <IconButton type="submit" sx={{p: '10px',color:'red'}}>
+         <Search />
+        </IconButton>
+        <IconButton type="submit" sx={{p: '10px',color:'red'}}>
+         <Search />
+        </IconButton>
+
 
 
 
